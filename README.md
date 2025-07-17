@@ -1,5 +1,5 @@
 # DropTreeList
-Virtualized Drop Tree List js
+Virtualized Drop Tree List
 
 # use
 ```js
