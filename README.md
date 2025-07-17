@@ -2,8 +2,12 @@
 Virtualized Drop Tree List js
 
 # use
-<script src="./treeList.js"></script><br />
-<script><br />
-  const mockData = generateMockData();<br />
-  const tree = new TreeList('treeViewport', mockData);<br />
+```js
+<script src="./treeList.js"></script>
+<script>
+  const mockData = generateMockData();
+  // domId、treeData、...arg
+  const tree = new TreeList('treeViewport', mockData, {});
 </script>
+```
+
